@@ -64,7 +64,7 @@ def resize_for_flickr_storage(src, app_config):
     )
     if not output_file.exists():
         width, height = aspectratio.get_size(src, app_config)
-        if width < 3072:
+        if width < 2048:
             return
         print("Resizing for Instagram: {}".format(src_p.name))
         cmd.execute_cmd(cmd_all)
