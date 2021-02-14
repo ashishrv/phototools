@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+setuptools = "*"
+autopep8 = "*"
+fotomanager = {editable = true, path = "."}
+
+[packages]
+fire = "*"
+python-decouple = "*"
+unipath = "*"
+
+[requires]
+python_version = "3.8"
